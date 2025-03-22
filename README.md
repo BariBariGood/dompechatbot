@@ -2,7 +2,7 @@
 
 A modern IT support chatbot for Dompé Pharmaceuticals that uses OpenAI's GPT models to provide assistance with IT-related questions and issues.
 
-<img width="908" alt="Screenshot 2025-03-22 at 4 19 55 PM" src="https://github.com/user-attachments/assets/7f9e766e-22dc-40a1-8b41-9d2f9f846f6d" />
+<img width="863" alt="Screenshot 2025-03-22 at 4 38 43 PM" src="https://github.com/user-attachments/assets/bcf9f742-b5f6-40b0-8236-0de06b4b6cb2" />
 
 ## Features
 
