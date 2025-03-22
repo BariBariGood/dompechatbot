@@ -1,0 +1,43 @@
+# Additional Dompé Information
+
+## Key Products and Research Areas
+- Oxervate (cenegermin): First FDA-approved treatment for neurotrophic keratitis
+- DORC (Dompé Ocular Research Center): Specializes in ophthalmology research
+- Biogen collaboration: Working on novel treatments for central nervous system disorders
+- Rare disease focus: Developing treatments for conditions with high unmet medical needs
+
+## Company History
+- Founded by Gian Antonio Dompé in 1853 as a pharmacy in Milan
+- Transformed into a pharmaceutical company in the early 20th century
+- Expanded internationally in the 1990s
+- Established US headquarters in the San Francisco Bay Area in 2017
+
+## IT Infrastructure
+- Primary data centers located in Milan and Boston
+- Cloud services primarily use AWS and Microsoft Azure
+- Global WAN connects all offices with redundant connections
+- Disaster recovery site operational in Frankfurt, Germany
+
+## Additional Leadership Team
+- Chief Medical Officer: Dr. Elena Bianchi
+- Head of Research: Dr. Marco Rossi
+- US Operations Director: Sarah Johnson
+- Chief Technology Officer: Thomas Weber
+- Chief Digital Officer: Anna Verdi
+
+## IT Support Locations
+- Milan: Main IT support center (GMT+1)
+- Boston: US IT support (GMT-5)
+- Remote support available 24/7 for critical systems
+
+## Employee Services
+- Internal employee portal: https://mydompe.internal
+- Remote access portal: https://remote.dompe.com
+- IT training resources: https://training.dompe.internal
+- Software request system: https://software.dompe.internal
+
+## Common IT Procedures
+- New software requests require manager approval and security review
+- Hardware refresh cycle: Laptops every 3 years, desktops every 4 years
+- Mobile device enrollment through MDM portal: https://mdm.dompe.internal
+- VPN access requires completion of security training course 

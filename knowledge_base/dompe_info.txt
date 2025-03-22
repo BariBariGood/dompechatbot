@@ -1,0 +1,527 @@
+Dompé: Company Overview and IT Infrastructure
+Corporate History and Mission
+Dompé farmaceutici S.p.A. is a family-owned Italian biopharmaceutical company with a history spanning over 130 years​
+EN.WIKIPEDIA.ORG
+. It began as Milan’s first compounding pharmacy in 1890, founded by Onorato Dompé​
+EN.WIKIPEDIA.ORG
+. Over the decades, it evolved into an international pharma company that straddles primary care and biopharma innovation​
+DOMPE.COM
+. Dompé’s mission emphasizes addressing unmet medical needs through innovative science and technology. The company “pushes understanding of science” and pursues R&D in unexpected areas to positively impact patients’ lives​
+DOMPE.COM
+. Today, Dompé remains privately held and led by the Dompé family, blending a 130-year heritage with a startup-like agility in pursuit of novel treatments​
+DOMPE.COM
+.
+Leadership Team and Key Executives
+Dompé’s leadership team combines family stewardship with global industry expertise. Key executives include:
+Sergio Dompé – President & CEO: Grandson of the founder, Sergio Dompé serves as Chief Executive and has guided the firm’s focus on biotech and rare diseases​
+REUTERS.COM
+​
+DOMPE.COM
+. He has stated he will “never sell” the family company and is considering future public listing to fund growth​
+REUTERS.COM
+​
+REUTERS.COM
+.
+Nathalie Dompé – Co-CEO: Sergio’s daughter, Nathalie, oversees U.S. market development and strategy. As Co-CEO, she drives new opportunities through interactions with leaders in pharma and high-tech, and sits on the board of Dompé Holdings​
+DOMPE.COM
+​
+DOMPE.COM
+.
+Eriona Gjinukaj – Chief Operating Officer: Appointed COO in 2018, Eriona leads Dompé’s internationalization and operations, especially after the FDA approval of the first therapy for neurotrophic keratitis​
+DOMPE.COM
+​
+DOMPE.COM
+. She coordinates global activities to deliver innovative solutions for unmet medical needs.
+Giuseppe Andreano – Chief Financial Officer: Dompé’s CFO since 2007, responsible for finance, administration and control​
+DOMPE.COM
+​
+DOMPE.COM
+. Notably, he also managed IT and procurement, reflecting Dompé’s integrated approach to operations​
+DOMPE.COM
+​
+DOMPE.COM
+.
+Daniele Rizzo – Chief Information Officer (CIO) & Head of Digital Transformation: Hired in 2021 to modernize Dompé’s IT, Rizzo directs global ICT strategy and digital transformation​
+DOMPE.COM
+​
+DOMPE.COM
+. He brought in new tech talent and leads initiatives in cloud adoption, cybersecurity, and process digitization (see IT section).
+Marcello Allegretti – Chief Scientific Officer: A longtime Dompé scientist, Marcello has led R&D since 2009 as CSO​
+DOMPE.COM
+. He oversees discovery and development from drug candidate identification to regulatory approval​
+DOMPE.COM
+, and has been instrumental in advancing Dompé’s pipeline (e.g. neurotrophins and immunology programs).
+Shannon K. Sullivan – Chief Commercial Officer (Biotech): Joined in 2023, Sullivan is an industry veteran (ex-Pfizer, Amgen) now heading commercial strategy for Dompé’s biotech portfolio​
+DOMPE.COM
+​
+DOMPE.COM
+. Her appointment reflects Dompé’s commitment to scaling its rare disease and specialty products in global markets.
+Other key leaders include Stefano Arena (Chief Industrial Officer overseeing manufacturing)​
+DOMPE.COM
+​
+DOMPE.COM
+, Gianluca Rossetti (Head of Strategic Planning & Business Development)​
+DOMPE.COM
+​
+DOMPE.COM
+, Andrea Astolfi (Chief HR Officer)​
+DOMPE.COM
+​
+DOMPE.COM
+, and compliance officers for the US and EU. This seasoned team blends family leadership with experts in science, operations, and technology to drive Dompé’s vision.
+Headquarters and Global Presence
+Headquartered in Milan, Italy, Dompé’s corporate offices are located at Via Santa Lucia in central Milan​
+DOMPE.COM
+. The company has expanded globally with operations in multiple countries:
+L’Aquila, Italy – R&D and Production Hub: Dompé’s 160,000 m² pharmaceutical campus in L’Aquila is the manufacturing heart of the company​
+DOMPE.COM
+. This site houses two production plants (small-molecule drugs and biotech products) and extensive R&D facilities. The L’Aquila plant produces most of Dompé’s products and distributes worldwide from its GMP production lines​
+DOMPE.COM
+.
+Naples, Italy – Research Center: Dompé maintains a research facility in Naples focusing on computational drug discovery and innovation​
+AU.LINKEDIN.COM
+. This site hosts part of the Exscalate team (see R&D section) and IT development efforts, leveraging the local talent pool in software and data science.
+United States – San Mateo, CA & Boston, MA: Dompé established U.S. offices in Silicon Valley and the Boston biotech corridor. Dompé US Inc. in San Mateo, California serves as the U.S. headquarters​
+DOMPE.COM
+, while a Boston office (One Marina Park Drive) supports East Coast operations​
+DOMPE.COM
+. The U.S. arm drives the launch of new drugs (with Nathalie Dompé leading U.S. strategy) and liaises with partners and regulators​
+DOMPE.COM
+.
+Tirana, Albania – Digital and Support Office: In Tirana, Dompé Albania sh.p.k. supports digital marketing, design and back-office functions​
+DOMPE.COM
+​
+AL.LINKEDIN.COM
+. The Tirana office has a team of digital specialists and graphic designers working on global campaigns for Dompé’s primary care brands​
+AL.LINKEDIN.COM
+. This presence is part of Dompé’s strategy to leverage diverse talent for its digital initiatives.
+Shanghai, China – Asia-Pacific Office: Dompé’s China office is located in Shanghai’s Huangpu District​
+DOMPE.COM
+. From this hub, Dompé coordinates regulatory approvals and market development in China and broader Asia. For example, the company has aimed to introduce its neurotrophic keratitis treatment in China following its success in the US and Europe​
+REUTERS.COM
+.
+In addition to these main sites, Dompé’s Reach spans Europe, the United States, and China​
+DOMPE.COM
+. The company distributes products across Europe (often via local partners) and has a global managed access program for certain therapies​
+DOMPE.COM
+. Its international footprint has grown rapidly in recent years – offices in the US, Albania and China opened as Dompé transformed “from a mostly regional pharma to an international biopharma” in just five years​
+DOMPE.COM
+.
+Products and Therapeutic Areas
+Dompé’s portfolio covers both primary care products and biotech specialty therapeutics, with a focus on innovative treatments for rare or hard-to-treat diseases. Key products and therapeutic areas include:
+Ophthalmology (Neurotrophic Keratitis): Dompé is best known for Cenegermin (Oxervate), a breakthrough topical eye drop for neurotrophic keratitis – a rare degenerative corneal disease. Oxervate is a recombinant human nerve growth factor (rhNGF) developed after decades of research, and in 2018 it became the first FDA-approved drug for this condition​
+EN.WIKIPEDIA.ORG
+​
+REUTERS.COM
+. This orphan biologic, marketed in the EU and US, regenerates corneal nerves and has been hailed as a “game changer” for patients with this unmet need​
+REUTERS.COM
+. Dompé continues to explore neurotrophins in other ophthalmic and neurological applications​
+DOMPE.COM
+.
+Immunology and Inflammation: Dompé has developed investigational therapies targeting inflammatory pathways. Reparixin is a small-molecule inhibitor of interleukin-8 (CXCL8) receptors that aims to reduce harmful inflammation​
+DOMPE.COM
+. Originally studied in transplant settings, Reparixin is now in clinical trials for acute inflammatory conditions like community-acquired pneumonia and acute respiratory distress syndrome (ARDS), including complications of COVID-19​
+DOMPE.COM
+. In a Phase 2 trial for severe COVID-19 pneumonia, patients on Reparixin had significantly lower rates of adverse clinical outcomes versus standard care​
+DOMPE.COM
+. Another candidate, Ladarixin, is an oral dual CXCR1/2 inhibitor being studied in Type 1 diabetes. Ladarixin seeks to preserve pancreatic β-cells by blocking IL-8 mediated inflammation; it is in Phase 2/3 trials as a disease-modifying therapy for early Type 1 diabetes​
+DOMPE.COM
+​
+DOMPE.COM
+.
+Primary Care & Specialty Pharma: Dompé has a longstanding portfolio of primary care drugs (many sold in Italy and Europe) for common conditions ranging from pain relief to respiratory and cardiovascular health​
+DOMPE.COM
+. Notable brands include Oki and Okitask (ketoprofen-based anti-inflammatory analgesics for pain) and Fluifort (carbocysteine-based mucolytic syrup for cough and bronchitis), among others​
+FARMACIARUBINO.NET
+​
+FARMACIARUBINO.NET
+. The company’s primary care line also spans products for eye, skin and oral care, gastroenterology, and cold/allergy remedies​
+DOMPE.COM
+. These products, while targeting widespread ailments, provide a stable revenue base that supports Dompé’s investment in high-risk, high-reward biotech R&D​
+REUTERS.COM
+.
+Rare Diseases and Unmet Needs: A unifying theme of Dompé’s therapeutic strategy is tackling rare, orphan, and high-unmet-need conditions. The company concentrates on a few key fields – notably ophthalmology, metabolic disorders, oncology, and pain – where it believes innovation can significantly improve patient outcomes​
+DOMPE.COM
+. For example, Dompé’s pipeline includes projects in oncology and fibrosis via external collaboration (see Engitix partnership), and it has an interest in NETosis (neutrophil extracellular traps) as a novel target in inflammatory diseases​
+DOMPE.COM
+. Dompé often pursues conditions that lack treatments, aligning with its mission to “make a meaningful difference” for patients otherwise overlooked​
+DOMPE.COM
+​
+DOMPE.COM
+.
+In sum, Dompé’s product range bridges common therapeutics and cutting-edge biopharmaceuticals. The success of Oxervate and similar programs marks Dompé’s transition toward a biotech-oriented portfolio focused on specialty and orphan drugs, while it continues to supply primary care products in its home market​
+REUTERS.COM
+​
+EN.WIKIPEDIA.ORG
+.
+Research and Development Initiatives
+Innovation is core to Dompé’s identity, and the company has made significant R&D investments in advanced technologies and novel drug discovery approaches:
+Exscalate: AI Supercomputing Drug Discovery Platform – Dompé has developed Exscalate, one of the world’s most powerful structure-based virtual screening platforms​
+DOMPE.COM
+. Exscalate (EXaSCale smArt pLatform Against paThogEns) leverages high-performance computing (HPC) and artificial intelligence to evaluate huge chemical libraries at unprecedented speed. It can screen >3 million molecules per second against biological targets, drawing from a massive virtual library of ~2 trillion compounds​
+BIO4DREAMS.COM
+. This platform, developed in-house in partnership with Italy’s CINECA supercomputing center and Politecnico di Milano, has transformed Dompé’s drug discovery process by making it “faster, more efficient, and less expensive”​
+DOMPE.COM
+​
+BIO4DREAMS.COM
+. Exscalate’s open innovation model allows Dompé to collaborate with academia, startups, and industry. Notably, in 2020 Exscalate teamed with U.S. biotech Aramis Biosciences to rapidly identify a novel compound for dry eye disease – going from target to IND (Investigational New Drug) approval in just 14 months​
+DOMPE.COM
+. The platform was also central to Exscalate4CoV, a public-private consortium that used supercomputing to fight COVID-19. In only 4 months, Exscalate4CoV identified the drug Raloxifene (an established SERM) as a potential COVID therapeutic, which progressed into Phase III clinical trials​
+DOMPE.COM
+. Dompé’s R&D strategy now heavily integrates Exscalate to accelerate preclinical candidate discovery and to repurpose known molecules for new uses​
+DOMPE.COM
+.
+Neurotrophic Factors and Regenerative Medicine – Building on Nobel Prize-winning science by Rita Levi-Montalcini, Dompé has spearheaded research into nerve growth factor (NGF) and other neurotrophic factors​
+DOMPE.COM
+. After seven years of work, Dompé successfully bioengineered the first recombinant human NGF (rhNGF) in the world​
+DOMPE.COM
+, leading to the development of Oxervate for corneal neurotrophic ulcers. The company continues to investigate neurotrophins for neuro-regeneration in ophthalmology and potentially neurology​
+DOMPE.COM
+. Dompé also supports basic research in this field through fellowships and scientific conferences – for instance, it hosted a 2024 gathering of top scientists in Rome to discuss the future of neurotrophins in eye and brain research​
+DOMPE.COM
+.
+Immunology and NETosis – Dompé’s scientists explore innate immune mechanisms like NETosis (the release of neutrophil extracellular traps) to find new therapeutic targets​
+DOMPE.COM
+. The IL-8/CXCR1-2 pathway is one such target, yielding drugs like reparixin and ladarixin (see above) to modulate excessive inflammatory responses. Dompé’s R&D in this arena has extended into urgent contexts like COVID-19. During the pandemic, Dompé not only tested its IL-8 inhibitors in clinical trials​
+DOMPE.COM
+, but also contributed to understanding disease mechanisms. In 2023, Dompé-affiliated researchers published new data on how the SARS-CoV-2 Spike protein interacts with human estrogen receptors to cause coagulopathy, shedding light on sex-specific differences in COVID outcomes​
+DOMPE.COM
+​
+DOMPE.COM
+. This reflects Dompé’s commitment to translational research that addresses real-world health threats.
+Advanced Computing and Quantum Research – Dompé is actively exploring next-generation computing techniques to further boost drug discovery. The company formed a research team in Naples that focuses on quantum computing applications in chemistry. For example, Dompé has a Quantum Computing Specialist role devoted to developing variational quantum eigensolver (VQE) algorithms for drug-like molecular systems​
+IT.BEBEE.COM
+​
+IT.BEBEE.COM
+. The goal is to integrate quantum algorithms into high-performance hybrid quantum/classical workflows, enabling precise calculation of molecular properties (e.g. ground-state energies of drug candidates) that can improve screening accuracy​
+IT.BEBEE.COM
+​
+IT.BEBEE.COM
+. Dompé is looking at platforms like NVIDIA’s CUDA Quantum for these simulations​
+IT.BEBEE.COM
+. Although in early stages, this initiative underscores Dompé’s innovative culture – the company strives to be a “pioneer in the field of quantum computing” as it relates to pharma, hoping to harness quantum technology to drive future breakthroughs​
+IT.BEBEE.COM
+.
+Pipeline and Open Innovation – Dompé’s R&D pipeline is enriched through strategic collaborations (detailed in the next section). The company is not averse to partnering or investing to access cutting-edge science. By concentrating on a few therapeutic areas (ophthalmology, metabolic, oncology, pain) and utilizing its Exscalate platform, Dompé can rapidly evaluate external opportunities. The firm’s approach to R&D is deliberately agnostic to molecule type, pursuing small molecules, biologics, and even cell therapy leads (one R&D executive previously led cell therapy programs at BlueRock Therapeutics)​
+DOMPE.COM
+​
+DOMPE.COM
+. Dompé reports that thanks to new biotechnologies, increasing computing power, and AI, it will be able to meet patients’ needs “even faster” in the coming years​
+DOMPE.COM
+​
+DOMPE.COM
+. Notably, Dompé was the first private company to gain access to the new Leonardo supercomputer (Europe’s 4th most powerful computer) in 2022, via a tech transfer agreement to accelerate life sciences research using Exscalate​
+DOMPE.COM
+. This kind of HPC resource is expected to supercharge Dompé’s pipeline development in areas beyond its traditional focus, such as fibrotic diseases and cancer (through partnerships like Engitix).
+Overall, Dompé’s R&D combines pharmacological expertise with state-of-the-art technology. From bioinformatics and AI-driven design to novel biology (NGF, NETosis) and quantum computing, the company channels its R&D efforts toward high-impact therapies. This innovative spirit is rooted in Dompé’s culture – described as having the “hunger to keep progressing” and embracing scientific challenges to deliver what patients need​
+DOMPE.COM
+​
+DOMPE.COM
+.
+Strategic Partnerships and Collaborations
+Dompé pursues partnerships to augment its research capabilities and global reach. Some notable collaborations include:
+Engitix (Fibrosis and Solid Tumors): In 2022, Dompé announced a strategic R&D collaboration with Engitix Ltd, a UK biotech specializing in human extracellular matrix (ECM) platforms. Dompé co-led Engitix’s $54 million Series A financing and agreed to provide Engitix access to its Exscalate AI drug design platform and screening facilities​
+DOMPE.COM
+​
+DOMPE.COM
+. This multi-year, multi-program partnership aims to identify new treatments for fibrosis and liver-associated solid tumors​
+DOMPE.COM
+​
+DOMPE.COM
+. As part of the deal, Dompé’s BD Director Gianluca Rossetti joined Engitix’s board​
+DOMPE.COM
+​
+DOMPE.COM
+. The collaboration allows Engitix to transition into a product-focused company, while Dompé earns milestone/royalty rights on any resulting therapies​
+DOMPE.COM
+. Dompé’s CSO Marcello Allegretti highlighted that combining Exscalate’s power with Engitix’s disease biology insights could “accelerate the clinical translation” of novel targets beyond Dompé’s own core areas​
+DOMPE.COM
+.
+Exscalate4CoV Consortium: During the COVID-19 pandemic, Dompé took a leading role in Exscalate4CoV (E4C), a public-private consortium funded by the EU. This partnership brought together supercomputing centers (like CINECA), academic labs, and pharma companies to screen compounds against SARS-CoV-2. Dompé contributed its Exscalate platform and extensive chemical library​
+DOMPE.COM
+​
+DOMPE.COM
+. The consortium’s rapid discovery that Raloxifene could be repurposed for COVID-19 – reaching clinical trials in months – showcased the success of this collaboration​
+DOMPE.COM
+. Following this, Dompé and E4C partners are developing new open-source tools for researchers to further accelerate drug discovery, supported by the European HPC Joint Undertaking​
+DOMPE.COM
+. The Exscalate4CoV project exemplifies Dompé’s open innovation approach, leveraging partnerships to tackle global health challenges.
+Bio4Dreams – Exscalate4Startups: In April 2023, Dompé and Bio4Dreams (an Italian life-science incubator) launched “Exscalate4Startups,” an initiative to support promising biotech startups with Dompé’s AI and supercomputing resources​
+BIO4DREAMS.COM
+​
+BIO4DREAMS.COM
+. Under this cooperation agreement, selected startups in Bio4Dreams’ portfolio gain access to the Exscalate platform to virtually screen and identify new drug candidates​
+BIO4DREAMS.COM
+​
+BIO4DREAMS.COM
+. Identified compounds can then be validated in Bio4Dreams’ labs at the Milan Innovation District. By opening its platform in an “open innovation perspective,” Dompé hopes to accelerate development of therapies by young companies, and in turn foster an ecosystem of innovative startups​
+BIO4DREAMS.COM
+​
+BIO4DREAMS.COM
+. Dompé was uniquely positioned to do this after becoming the first industrial user of the Leonardo supercomputer in late 2022, which significantly boosts Exscalate’s power (Leonardo is the world’s 4th most powerful supercomputer)​
+BIO4DREAMS.COM
+​
+BIO4DREAMS.COM
+. This partnership reflects Dompé’s commitment to nurturing external innovation using its in-house technology assets.
+Aramis Biosciences (Dry Eye Disease): Dompé’s collaboration with US-based Aramis is a model of academia-industry partnership. Using Exscalate, Dompé and Aramis rapidly identified a novel compound for dry eye disease in 2020​
+DOMPE.COM
+. From initial computational screening to an Investigational New Drug (IND) filing took only 14 months​
+DOMPE.COM
+. The proprietary molecule discovered is now in advanced development by Aramis (with Dompé likely retaining some rights or royalties). This success story not only validated the Exscalate platform, but also forged an ongoing relationship – Dompé has signaled interest in continuing to partner on ophthalmic innovations that emerge from such collaborations.
+FarmaMondo (Oxervate Distribution): To extend its global reach, Dompé partners with distributors for markets where it has no direct presence. In October 2023, Dompé and the Switzerland-based FarmaMondo Group announced an extension of their partnership for Oxervate® distribution​
+DOMPE.COM
+. FarmaMondo, which specializes in managed access and specialty pharma distribution, became Dompé’s exclusive partner to supply Oxervate to additional selected countries​
+DOMPE.COM
+. This ensures that patients in those regions can access the drug for neurotrophic keratitis. It also illustrates Dompé’s strategy of leveraging regional partners to commercialize its orphan products globally, wherever local regulatory approvals are in place.
+Eni S.p.A. (Global Health Research): In an unexpected cross-industry collaboration, Dompé signed a Letter of Intent with Italian energy company Eni in 2023 to cooperate on health research and development​
+DOMPE.COM
+. The agreement, signed by Eni’s CEO Claudio Descalzi and Sergio Dompé, will initiate joint R&D projects addressing the health of people and communities in areas where Eni operates, as well as broader global health issues​
+DOMPE.COM
+. While details are sparse (the announcement was made in Italian), this partnership likely leverages Eni’s resources and Dompé’s biomedical expertise to tackle challenges such as environmental health or community medicine as part of corporate social responsibility. It underscores Dompé’s openness to non-traditional collaborations that can broaden its impact on public health.
+Academic and Institutional Collaborations: Dompé also maintains many academic partnerships. Sergio Dompé himself has cultivated an extensive network with top research centers in Dompé’s fields​
+DOMPE.COM
+. For example, Dompé has ties to the Italian Institute of Technology (IIT) (Sergio was on IIT’s board) and has supported research programs like the Rita Levi-Montalcini Foundation fellowships in neuroscience​
+DOMPE.COM
+. Dompé’s production site in L’Aquila works closely with local universities and has hosted dignitaries (the President of Italy visited during its inauguration in 1993)​
+DOMPEFOUNDATION.ORG
+. These relationships help Dompé tap into scientific talent and advance its R&D. Additionally, Dompé engages in EU-funded research consortia beyond E4C, and invests through its holding arm in startups aligned with its mission (for instance, Dompé Holdings has interests in companies spanning pharmaceuticals, agriculture, and hi-tech)​
+DOMPE.COM
+.
+Through these strategic partnerships, Dompé amplifies its capabilities – whether by accessing new technologies (e.g. ECM biology via Engitix), expanding its computational might (via HPC initiatives), or ensuring its innovations reach patients worldwide (via distribution deals). Collaboration is a cornerstone of Dompé’s approach, consistent with its belief in “partnering with the scientific community to unlock value from drug and technology developments”​
+DOMPE.COM
+.
+Digital Transformation and IT Initiatives
+In recent years, Dompé has undergone a major digital transformation to modernize its IT infrastructure and business processes. This effort has been led by CIO Daniele Rizzo (appointed 2021 as Chief Information Officer & Head of Digital Transformation)​
+DOMPE.COM
+. Key aspects of Dompé’s digital journey include:
+Building an Internal IT Team: Historically, Dompé’s IT was mostly outsourced and focused on basic operations​
+DOMPE.COM
+. Over the last five years, the company insourced and grew a global IT department of 16 highly skilled professionals​
+DOMPE.COM
+. Rizzo “set up a brilliant team” by recruiting top talent (many from leading consultancies and large companies) and blending them with Dompé’s veteran IT staff​
+DOMPE.COM
+. This team now provides in-house expertise across IT domains, allowing Dompé to move faster with new technologies. The company invested in developing these people, offering roles that would stretch their skills and advance their careers​
+DOMPE.COM
+.
+Modernizing Infrastructure and Embracing Cloud: A first pillar of the transformation was updating Dompé’s core IT infrastructure. Under Rizzo’s plan, Dompé migrated many systems to the cloud, adopting a “top-level, professional cloud” provided by leading hyper-scalers​
+DOMPE.COM
+. This cloud platform ensures services are secure, scalable and accessible across Dompé’s offices in different countries​
+DOMPE.COM
+. Rizzo noted that using cloud is “not just a technology change” but also shifts how the company allocates IT costs and requires upskilling staff​
+DOMPE.COM
+. By 2024, Dompé was operating a cloud-first environment spanning its operations in Europe, the US, and China​
+DOMPE.COM
+. Additionally, specialized pharma software solutions were integrated to support functions like clinical development, quality, and supply chain​
+DOMPE.COM
+. The IT team also deployed new tools to manage IT processes and user support (for example, Dompé implemented a modern IT service management system)​
+DOMPE.COM
+. These upgrades have knit together Dompé’s global offices with seamless digital workflows​
+DOMPE.COM
+.
+Digitizing Processes and Data: When Rizzo joined, many of Dompé’s processes were still paper-based or offline​
+DOMPE.COM
+. A concerted effort was made to digitize workflows across departments. For instance, the number of documents signed electronically increased by 40% in one year as e-signature platforms replaced paper signing​
+DOMPE.COM
+. Clinical study records that once sat in paper archives are now managed in a digital system, greatly improving access and collaboration​
+DOMPE.COM
+. Human Resources processes were also digitized, and cross-country information sharing was streamlined​
+DOMPE.COM
+. Rizzo describes “making information easily accessible across different countries and cultures” as a key achievement of IT, effectively turning digital into “a real cultural glue” within the company​
+DOMPE.COM
+. By simplifying digital access and automating workflows, Dompé has improved efficiency and data visibility enterprise-wide. The value of data is now better recognized in the organization – critical in a pharma company where data (e.g. research data, clinical data) is highly sensitive and complex​
+DOMPE.COM
+​
+DOMPE.COM
+.
+Enhanced Cybersecurity and Risk Management: With greater digitization came a heightened focus on cybersecurity. Dompé acknowledges that the shift to cloud services, remote work (“smart working”), and digital processes “transformed us into a smarter company, but at the same time raised the level of risk to which our data are exposed”​
+DOMPE.COM
+. Under Rizzo’s guidance, Dompé built a robust security program. They conduct continuous risk analyses and implement preventive controls to identify and mitigate threats​
+DOMPE.COM
+. A “security culture” has been instilled among employees through training, awareness sessions, and shared learnings​
+DOMPE.COM
+. Rizzo regularly holds discussions with staff about cybersecurity, stressing the importance of individual behaviors in protecting IT systems​
+DOMPE.COM
+. This is crucial because Dompé operates globally (Italy, US, China), and the primary threat is ransomware, which could disrupt production and supply chains​
+DOMPE.COM
+. Rizzo has noted that compromising Dompé’s IT infrastructure would be like “taking out the power grid” – the company’s level of automation is such that it cannot afford extended downtime​
+DOMPE.COM
+. In fact, Dompé’s lifesaving biotech drug (for a rare disease) produced in L’Aquila must ship on time to patients worldwide, so any IT outage could compromise patient therapy​
+DOMPE.COM
+. To prevent this, Dompé invested in strong backup and disaster recovery capabilities and reinforced its network defenses. Ensuring business continuity and protecting sensitive data (including intellectual property and patient data) are top priorities in the IT transformation​
+DOMPE.COM
+​
+DOMPE.COM
+. By 2024, Dompé’s IT had significantly reinforced security and risk management, which Rizzo cites as a foundational pillar of the digital evolution​
+DOMPE.COM
+.
+IT Governance and Strategy: Dompé is also changing how technology decisions are made. IT governance has been elevated to involve business leadership, effectively “bringing IT to the boardroom” so that tech strategy aligns with business strategy​
+DOMPE.COM
+. Product development and strategic decisions now consider technology implications from the outset​
+DOMPE.COM
+. Rizzo is working to ensure business unit leaders participate in IT governance, fostering shared ownership of digital initiatives​
+DOMPE.COM
+. This paves the way for emerging technologies like AI to be incorporated into Dompé’s future planning. Rizzo expects AI to become part of every major decision process, even if it’s not yet fully clear how – it is “surely” part of the next phase of transformation​
+DOMPE.COM
+. The company’s forward-looking stance is evident in such statements, as well as in its exploration of frontier tech (AI/ML in R&D, quantum computing, etc.).
+Overall, Dompé’s digital transformation has modernized the company’s IT backbone and corporate culture. What started as an effort to update systems has become “a real cultural glue” uniting global operations and improving agility​
+DOMPE.COM
+. Dompé now operates with state-of-the-art IT tools, cloud infrastructure, and a proactive cybersecurity posture. These changes enable the company to better serve employees and patients – for example, by accelerating data access, ensuring supply chain continuity, and freeing teams from paper-bound processes. Dompé’s case illustrates how a mid-size pharma can reinvent itself in the digital age: in five years, it went from an IT afterthought to a digitally-driven organization leveraging technology as a strategic asset​
+DOMPE.COM
+​
+DOMPE.COM
+.
+Technology Infrastructure and Software Platforms
+Dompé’s IT and R&D operations are underpinned by a sophisticated technology infrastructure, which combines enterprise cloud platforms with ultra-high-performance computing resources:
+High-Performance Computing (HPC) and “Exscalate” Infrastructure: Dompé’s flagship Exscalate platform runs on cutting-edge HPC infrastructure. In late 2022, Dompé became the first private user of the new Leonardo supercomputer, securing dedicated capacity on this petascale system at the Bologna Technopole​
+DOMPE.COM
+. Leonardo (managed by CINECA) is the 4th most powerful supercomputer globally, and Dompé’s access via a technology transfer agreement allows Exscalate to utilize its immense computing power​
+DOMPE.COM
+. This has created what Dompé calls the “Tangible Chemical Space” (TCS) – the world’s largest virtual chemical library for drug screening​
+E4COMPANY.COM
+​
+E4COMPANY.COM
+. The Exscalate infrastructure integrates thousands of CPU/GPU nodes, high-speed interconnects (e.g. Mellanox InfiniBand), and scalable storage. A case study by HPC provider E4 detailed that Dompé’s TCS storage cluster uses a MinIO object storage layer (S3-compatible) to efficiently manage the vast data (trillions of molecular structures) involved​
+E4COMPANY.COM
+​
+E4COMPANY.COM
+. For computational workloads, Dompé leverages parallel programming and GPU acceleration – its team uses MPI for scaling out, C++11 threads for scaling up on nodes, and CUDA for GPU computing in screening algorithms​
+RE.PUBLIC.POLIMI.IT
+​
+RE.PUBLIC.POLIMI.IT
+. Dompé’s researchers also experiment with emerging frameworks like Intel oneAPI’s Data-Parallel C++ (DPC++) to optimize performance portability of their code across different architectures​
+DL.ACM.ORG
+​
+ARXIV.ORG
+. This HPC environment, combined with AI models, is a cornerstone of Dompé’s R&D success. It enables “extremely rapid results” in silico, compressing what used to be years of lab work into days​
+E4COMPANY.COM
+​
+E4COMPANY.COM
+. The HPC platform supports not only internal projects but also external collaborations (via secure portals for partners). Dompé is continuously upgrading this infrastructure, keeping pace with advances in supercomputing; as new HPC resources become available (national or EU level), Dompé is quick to adopt them to maintain a competitive edge in drug discovery.
+Cloud Enterprise Systems: On the corporate IT side, Dompé has moved strongly to the cloud. The company runs its enterprise applications on cloud platforms provided by major hyperscale vendors (e.g. Microsoft Azure or Amazon Web Services, as implied by Rizzo)​
+DOMPE.COM
+. While Dompé hasn’t publicly named the vendor, it describes the setup as a professional, top-tier cloud ensuring security and accessibility​
+DOMPE.COM
+. Core systems like ERP, finance, HR, and CRM are likely cloud-hosted, improving reliability across Dompé’s geographically dispersed units. For example, Dompé’s manufacturing execution and quality systems may be integrated via cloud to link the L’Aquila plant with headquarters. The cloud adoption also facilitated remote work and collaboration, especially crucial during the COVID-19 pandemic. Dompé’s use of cloud is not confined to back-office IT: it extends to data analytics and potentially to extending its research computations. The financial flexibility (OpEx vs CapEx) of cloud has allowed Dompé to invest more in innovation while scaling routine workloads efficiently​
+DOMPE.COM
+. Dompé’s IT team also implemented modern SaaS solutions tailored to pharma. A notable example is the use of a ServiceNow platform (as indicated by a Dompé grants portal link) for workflow automation in grants management and likely for IT service management​
+DOMPE.COM
+. The company also employs industry-specific systems (for pharmacovigilance, regulatory, etc.) to ensure compliance and global coordination. All these cloud and software platforms are unified under enhanced IT governance, ensuring they align with business needs and are used effectively across Dompé’s units​
+DOMPE.COM
+.
+Data Management and Analytics: Dompé handles sensitive and complex data – from clinical trial data to manufacturing batch records. The IT infrastructure includes robust data management and backup systems to protect this information. Multi-site data replication (between Milan and L’Aquila, for example) is likely in place as part of the ransomware defense strategy​
+DOMPE.COM
+. On the analytics front, Dompé utilizes tools for data analysis and business intelligence. The digital marketing team uses social listening and web analytics platforms (e.g. Similarweb, Talkwalker) to gauge campaign performance​
+AL.LINKEDIN.COM
+. In R&D, besides Exscalate’s AI, the team uses scientific computing tools (Python, R, etc.) for data analysis. Job postings indicate desired skills in data science and machine learning for R&D roles​
+IT.BEBEE.COM
+, suggesting Dompé is employing machine learning for tasks like hit prediction, image analysis (microscopy in R&D), or supply chain optimization. Dompé likely also has deployed Office 365 and collaboration suites company-wide, given its global workforce needs and the mention of increased digital document signing (which often involves tools like DocuSign integrated with Office apps)​
+DOMPE.COM
+.
+Security and Compliance Systems: Dompé’s IT infrastructure is fortified by various cybersecurity solutions – from endpoint protection to network monitoring – as part of its enhanced security program. The company also uses compliance management software; for example, Veeva Vault is commonly used in pharma for managing clinical and regulatory documents (Dompé hasn’t confirmed this, but given their digital QA focus, a similar validated system is likely in use). The pharmacovigilance and medical information functions are supported by dedicated IT systems accessible through Dompé’s website​
+DOMPE.COM
+​
+DOMPE.COM
+. Dompé has also implemented ethics and compliance hotlines (hosted on secure external platforms) to ensure IT-supported reporting channels​
+DOMPE.COM
+. All cloud and IT services are governed under policies to meet GxP, GDPR, and other regulatory requirements across regions.
+In summary, Dompé’s technology infrastructure is a hybrid of cloud computing and specialized high-performance systems. By adopting cloud enterprise solutions, Dompé gained agility and collaboration capabilities; by investing in HPC and data platforms, it built a unique competitive advantage in R&D. The synergy of these technologies enables Dompé to operate like a much larger company in terms of IT capability, without compromising on the focus and agility of a mid-sized firm. Dompé’s CIO has characterized their cloud/HPC system as one that “makes things secure and accessible” for the team​
+DOMPE.COM
+ – a critical enabler for a company tackling complex scientific problems on a global stage.
+Open Innovation and Developer Resources
+Though Dompé is not primarily a software provider, it has taken steps to engage the broader scientific and developer community with its tools and data:
+Open APIs and Tools (HPC/Drug Discovery): As part of the Exscalate4CoV project, Dompé and partners are developing digital open tools for researchers worldwide​
+DOMPE.COM
+. These tools, expected to be released with support from the EU’s HPC initiative, may include APIs or web interfaces to allow scientists to access parts of the Exscalate platform or databases. The goal is to democratize drug discovery by letting external researchers perform virtual screening or contribute models, leveraging the huge computational resources that Dompé assembled​
+DOMPE.COM
+. In essence, Dompé is turning its proprietary platform into an open innovation asset under certain collaborations, providing a form of developer access to its capabilities (with appropriate controls). This is relatively unusual in pharma and signals Dompé’s tech-forward mindset.
+Exscalate4Startups Program: Through the partnership with Bio4Dreams, Dompé offers startups hands-on use of Exscalate in their discovery projects​
+BIO4DREAMS.COM
+​
+BIO4DREAMS.COM
+. While not an open public API, this program functions as a developer sandbox for young companies: Dompé’s experts and the startups’ scientists work together, effectively giving the startups a back-end supercomputing service for their research. This provides Dompé with feedback and potential collaborations, and gives external innovators a powerful tool they wouldn’t normally have. Dompé executives described this as making their platform available “in an open innovation perspective,” supporting an ecosystem of innovation​
+BIO4DREAMS.COM
+.
+Developer-Focused Job Roles: Dompé’s internal development teams, especially in Naples, actively use modern programming languages and contribute to scientific computing projects. The company has advertised positions like Software Engineer and C++ Developer for proprietary application development in its IT team​
+IT.JOOBLE.ORG
+. One job listing sought a C++ Programmer for a proprietary application, requiring knowledge of C/C++ and possibly Python, to join Dompé’s IT group in Napoli​
+IT.JOOBLE.ORG
+. Another role for a Quantum Computing Specialist demands programming skills in Python and C/C++ and familiarity with quantum SDKs​
+IT.BEBEE.COM
+​
+IT.BEBEE.COM
+. This indicates Dompé’s IT and R&D staff are using developer tools such as Git version control, C++ compilers, Python scientific libraries (NumPy, etc.), and HPC toolchains. By hiring talent with these skills and even publishing some of their work (Dompé researchers have authored papers on their computing methods​
+RE.PUBLIC.POLIMI.IT
+​
+RE.PUBLIC.POLIMI.IT
+), Dompé is contributing to the broader developer/scientific community.
+Community and Hackathons: While not explicitly documented, Dompé’s open innovation ethos suggests it might participate in hackathons or challenges (for example, challenges related to COVID-19 drug discovery or rare diseases). The company’s presence in initiatives like E4C and the Leonardo consortium inherently provides opportunities for outside developers and scientists to interact with their platform. Dompé’s communications emphasize partnership and knowledge sharing; for instance, the company publishes scientific results in high-impact journals (Science Advances, The Lancet, etc.) and makes data available on preprint servers​
+DOMPE.COM
+​
+DOMPE.COM
+, supporting open scientific dialogue.
+In summary, Dompé is extending its reach to external innovators by opening parts of its technology. Through structured programs (Exscalate4Startups) and the development of open tools/APIs in EU projects, Dompé provides what are effectively developer-facing resources. This not only enhances the company’s collaborative network but also ensures its in-house platforms remain at the cutting edge via external input. It’s an example of a pharma company behaving akin to a tech company in fostering a developer ecosystem around its core technologies.
+News and Recent Developments
+Dompé regularly publicizes its achievements and corporate updates. The following are some recent news and press releases highlighting the company’s developments:
+June 2024 – Scientific Conference on Neurotrophins: Dompé convened top scientists in Rome for a conference titled “From the Eye to the Brain” to discuss advances in neurotrophin research for eye and brain diseases​
+DOMPE.COM
+. This underscored Dompé’s leadership in NGF science and its commitment to neurological R&D bridging ophthalmology and neuroscience.
+October 2023 – New Chief Commercial Officer: Dompé appointed Shannon K. Sullivan as Chief Commercial Officer (Biotech) to strengthen its commercial presence in the rare disease arena​
+DOMPE.COM
+. Sullivan, a pharma industry veteran, is tasked with driving the U.S. launch of new drugs and expanding Dompé’s biotech portfolio globally. Her hiring reflects Dompé’s growth in the biotech sector and preparation for new product rollouts.
+October 2023 – Collaboration with Eni: Dompé and energy giant Eni signed a letter of intent to collaborate on health R&D initiatives​
+DOMPE.COM
+. The partnership will focus on healthcare projects in communities where Eni operates and on global health challenges, leveraging Dompé’s biomedical expertise. This cross-sector collaboration, announced by Dompé’s executive chairman and Eni’s CEO, highlights an innovative approach to public health and corporate social responsibility.
+October 2023 – Oxervate Distribution Expansion: Dompé and FarmaMondo Group extended their distribution agreement for Oxervate® (cenegermin)​
+DOMPE.COM
+. FarmaMondo will now distribute Oxervate in additional countries, increasing global access to the drug. This indicates Oxervate’s growing adoption and Dompé’s efforts to reach patients in markets beyond its direct operations (following regulatory approvals in those regions).
+June 2023 – Dompé Foundation Neuroscience Fellowships: The Dompé Foundation doubled funding for the Rita Levi-Montalcini Fellowships, dedicating $1 million to support Italian Ph.D. and post-doc researchers in neuroscience and neurobiology at US universities​
+DOMPE.COM
+. This philanthropic move, announced in a press release, aims to foster the next generation of scientific talent and reinforce Dompé’s ties to neurotrophic factor research (honoring Levi-Montalcini’s legacy).
+May 2023 – New Data on COVID-19 Coagulopathy: A team of Dompé-supported researchers published findings in Science Advances linking the SARS-CoV-2 spike protein to coagulopathy via interaction with estrogen receptor alpha​
+DOMPE.COM
+. The study provides insight into sex-specific COVID effects and suggests small changes in vaccine design that might mitigate rare clotting side effects​
+DOMPE.COM
+. Dompé highlighted this as part of its contributions during the pandemic, demonstrating the breadth of its scientific engagement (extending into fundamental pathogen biology).
+November 2022 – Leonardo Supercomputer Announcement: Dompé announced that it is the first industrial partner to use the Leonardo supercomputer in Bologna for life sciences research​
+DOMPE.COM
+. This press release, timed with Leonardo’s inauguration, detailed how Dompé will use the HPC system to boost the Exscalate platform’s capabilities. It marked a milestone in public-private collaboration in Italy’s tech landscape, showing Dompé at the forefront of adopting HPC for healthcare innovation.
+July 2022 – Raloxifene COVID Trial Results: Two clinical studies supported by Dompé were published (in The Lancet and Nature) showing that oral Raloxifene may help treat mild-to-moderate COVID-19​
+DOMPE.COM
+. Raloxifene was identified by the Exscalate4CoV consortium as a potential antiviral. The trials indicated efficacy against SARS-CoV-2 variants, validating the consortium’s AI-driven drug repurposing approach. The press release also noted that new digital tools (built with EU HPC support) are being developed to further accelerate such drug discovery efforts​
+DOMPE.COM
+.
+June 2022 – Positive Phase 2 for Reparixin in COVID ARDS: Dompé announced results of a Phase II study of Reparixin in hospitalized COVID-19 patients with severe pneumonia/ARDS​
+DOMPE.COM
+. The study (presented at ATS 2022) found significantly lower rates of clinical worsening in patients treated with Reparixin (an IL-8 inhibitor) versus standard care​
+DOMPE.COM
+. While preliminary (n=36 vs 19 patients), this was the first proof-of-concept that Reparixin might improve outcomes in cytokine-driven lung injury. These results have informed larger trials and demonstrate Dompé’s quick mobilization of its pipeline against COVID-19.
+August 2018 – FDA Approval of Oxervate: (A slightly older but pivotal news) The U.S. FDA approved Oxervate as the first drug for neurotrophic keratitis​
+EN.WIKIPEDIA.ORG
+. This landmark approval, announced in 2018, put Dompé on the map internationally. Oxervate received orphan drug designation and was the culmination of a 20-year effort from the acquisition of Anabasis in 2012 through clinical development​
+EN.WIKIPEDIA.ORG
+. Dompé’s CEO noted that cenegermin’s success would support the company’s shift towards biotech and specific high-need diseases​
+REUTERS.COM
+​
+REUTERS.COM
+. Following FDA approval, Dompé established its U.S. subsidiary and prepared for commercialization, which has been a success, leading to the drug’s adoption in multiple countries and spurring further research into neurotrophic therapies.
+These developments illustrate Dompé’s dynamic progress in both science and business. The company is steadily advancing its pipeline (with clinical and regulatory milestones), expanding its global footprint, and forging innovative partnerships. Dompé’s news flow reflects a dual identity: on one hand, a cutting-edge R&D-driven biotech achieving scientific breakthroughs; on the other, a growing international business professionalizing its operations and leadership. Investors and industry observers keep a close eye on Dompé as it could be a candidate for an IPO or major partnerships in the future (as hinted by Sergio Dompé’s comments on possibly listing shares and the strong interest it has attracted​
+REUTERS.COM
+​
+REUTERS.COM
+). For now, Dompé continues to execute its strategy as an independent, family-led firm focused on delivering therapeutic innovation to patients around the world. Sources: Dompé official website​
+DOMPE.COM
+​
+DOMPE.COM
+​
+DOMPE.COM
+​
+DOMPE.COM
+, Dompé press releases​
+DOMPE.COM
+​
+DOMPE.COM
+, Reuters​
+REUTERS.COM
+​
+REUTERS.COM
+, and other industry publications as cited throughout.
