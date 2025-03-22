@@ -148,23 +148,36 @@ function loadKnowledgeBase() {
   try {
     let knowledgeBase = '';
     
-    // Load primary knowledge base file
+    // Load primary knowledge base file - check both in backend directory and project root
     const kbPath = path.join(__dirname, 'knowledge_base.txt');
+    const kbPathAlt = path.join(__dirname, '..', 'knowledge_base', 'knowledge_base.txt');
+    
     if (fs.existsSync(kbPath)) {
       knowledgeBase += fs.readFileSync(kbPath, 'utf8') + '\n\n';
+      console.log('Loaded knowledge_base.txt from backend directory');
+    } else if (fs.existsSync(kbPathAlt)) {
+      knowledgeBase += fs.readFileSync(kbPathAlt, 'utf8') + '\n\n';
+      console.log('Loaded knowledge_base.txt from project root knowledge_base directory');
     } else {
-      console.log('Primary knowledge base file (knowledge_base.txt) not found.');
+      console.log('Primary knowledge base file (knowledge_base.txt) not found in any location.');
     }
     
-    // Load additional Dompé info file
+    // Load additional Dompé info file - check both locations
     const dompeInfoPath = path.join(__dirname, 'dompe_info.txt');
+    const dompeInfoPathAlt = path.join(__dirname, '..', 'knowledge_base', 'dompe_info.txt');
+    
     if (fs.existsSync(dompeInfoPath)) {
       // Add the @dompe_info.txt annotation before the content
       knowledgeBase += '@dompe_info.txt\n';
       knowledgeBase += fs.readFileSync(dompeInfoPath, 'utf8');
-      console.log('Successfully loaded @dompe_info.txt into knowledge base.');
+      console.log('Successfully loaded @dompe_info.txt from backend directory.');
+    } else if (fs.existsSync(dompeInfoPathAlt)) {
+      // Add the @dompe_info.txt annotation before the content
+      knowledgeBase += '@dompe_info.txt\n';
+      knowledgeBase += fs.readFileSync(dompeInfoPathAlt, 'utf8');
+      console.log('Successfully loaded @dompe_info.txt from project root knowledge_base directory.');
     } else {
-      console.log('Additional information file (dompe_info.txt) not found.');
+      console.log('Additional information file (dompe_info.txt) not found in any location.');
     }
     
     if (!knowledgeBase.trim()) {
