@@ -10,7 +10,7 @@
     "build": "npm run build:setup && npm run build:frontend && npm run build:api",
     "build:setup": "npm install && cd frontend && npm install && cd ../backend && npm install",
     "build:frontend": "cd frontend && npm run build",
-    "build:api": "mkdir -p .vercel/output/functions/api && cp api/index.js .vercel/output/functions/api/index.js",
+    "build:api": "mkdir -p .vercel/output/functions/api.func && cp -r api/* .vercel/output/functions/api.func/ && cp -r node_modules .vercel/output/functions/api.func/ && cp package.json .vercel/output/functions/api.func/ && echo '{\"runtime\": \"nodejs18.x\", \"handler\": \"index.js\"}' > .vercel/output/functions/api.func/.vc-config.json",
     "postinstall": "npm-run-all --serial install:*",
     "install:frontend": "cd frontend && npm install",
     "install:backend": "cd backend && npm install"
