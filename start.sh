@@ -26,39 +26,15 @@ if [ ! -f ".env" ]; then
 fi
 
 # Install dependencies if needed
-echo "Checking backend dependencies..."
-if [ ! -d "backend/node_modules" ]; then
-    echo "Installing backend dependencies..."
-    cd backend && npm install && cd ..
-else
-    echo "Backend dependencies already installed."
-fi
-
-echo "Checking frontend dependencies..."
-if [ ! -d "frontend/node_modules" ]; then
-    echo "Installing frontend dependencies..."
-    cd frontend && npm install && cd ..
-else
-    echo "Frontend dependencies already installed."
-fi
+echo "Checking dependencies..."
+npm install
 
 # Trap to ensure we kill all processes when script exits
 trap 'kill $(jobs -p) 2>/dev/null' EXIT
 
-# Start backend server
-echo "Starting backend server on port 5001..."
-cd backend && npm run dev &
-BACKEND_PID=$!
-echo "Backend server started with PID: $BACKEND_PID"
-
-# Wait for backend to start
-sleep 3
-
-# Start frontend server
-echo "Starting frontend server on port 3000..."
-cd frontend && npm start &
-FRONTEND_PID=$!
-echo "Frontend server started with PID: $FRONTEND_PID"
+# Start development servers
+echo "Starting development servers..."
+npm run start:dev
 
 echo "Both servers are running. Access the application at http://localhost:3000"
 echo "Press Ctrl+C to stop."

@@ -13,7 +13,6 @@ import {
 import SendIcon from '@mui/icons-material/Send';
 import DeleteIcon from '@mui/icons-material/Delete';
 import MessageList from './MessageList';
-import SearchResultDisplay from './SearchResultDisplay';
 
 const ChatUI = () => {
   const [messages, setMessages] = useState([]);
@@ -21,11 +20,14 @@ const ChatUI = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const messagesEndRef = useRef(null);
-  const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:5001';
+  const latestMessageRef = useRef(null);
+  
+  // Use relative URL for API when deployed
+  const apiUrl = process.env.NODE_ENV === 'production' ? '/api' : 'http://localhost:5001/api';
 
   // Scroll to bottom when messages change
   useEffect(() => {
-    scrollToBottom();
+    scrollToLatestMessage();
   }, [messages]);
 
   // Auto-greet on first load
@@ -35,8 +37,14 @@ const ChatUI = () => {
     }
   }, []);
 
-  const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  const scrollToLatestMessage = () => {
+    // First try to scroll to the latest message
+    if (latestMessageRef.current) {
+      latestMessageRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    } else {
+      // Fall back to scrolling to the bottom if ref not available
+      messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   const handleInputChange = (e) => {
@@ -59,7 +67,10 @@ const ChatUI = () => {
     }, 100);
   };
 
+  // Create a properly formatted message history for the API
   const getMessageHistory = (msgs) => {
+    // Use all messages except the newest user message (which will be sent separately)
+    // This ensures the full conversation context is included
     return msgs.map(msg => ({
       role: msg.role,
       content: msg.content
@@ -72,7 +83,12 @@ const ChatUI = () => {
       setError(null);
       
       // Send an empty message to get a greeting
-      const response = await axios.post(`${apiUrl}/api/chat`, { message: 'Hello', history: [] });
+      // No history for the initial greeting
+      const response = await axios.post(`${apiUrl}/chat`, { 
+        message: 'Hello', 
+        history: [] 
+      });
+      
       const responseData = response.data;
       
       setMessages([{ 
@@ -92,7 +108,8 @@ const ChatUI = () => {
     if (input.trim() === '') return;
     
     // Add user message to chat
-    const updatedMessages = [...messages, { role: 'user', content: input }];
+    const userMessage = { role: 'user', content: input };
+    const updatedMessages = [...messages, userMessage];
     setMessages(updatedMessages);
     setInput('');
     
@@ -100,18 +117,22 @@ const ChatUI = () => {
       setLoading(true);
       setError(null);
       
-      // Get response from server
-      const response = await axios.post(`${apiUrl}/api/chat`, { message: input, history: getMessageHistory(updatedMessages) });
+      // Get response from server - include full conversation history
+      const response = await axios.post(`${apiUrl}/chat`, { 
+        message: input, 
+        history: getMessageHistory(messages) // Send previous messages as history
+      });
+      
       const responseData = response.data;
       
       // Process regular response
       if (responseData.response) {
+        // Add assistant's response to the messages
         setMessages([
           ...updatedMessages,
           { 
             role: 'assistant', 
-            content: responseData.response,
-            searchResult: responseData.searchResult || null
+            content: responseData.response
           }
         ]);
       }
@@ -126,17 +147,7 @@ const ChatUI = () => {
         ...updatedMessages,
         { 
           role: 'assistant', 
-          content: 'Sorry, I encountered an error while processing your request. Please try again later.',
-          searchResult: {
-            source: 'error',
-            abstractText: 'There was a problem connecting to the search service. This could be due to network issues or the search service being temporarily unavailable.',
-            relatedTopics: [
-              { 
-                text: 'If this problem persists, please contact your IT department or try again later.', 
-                url: null 
-              }
-            ]
-          }
+          content: 'Sorry, I encountered an error while processing your request. Please try again later.'
         }
       ]);
     }
@@ -188,25 +199,17 @@ const ChatUI = () => {
           width: '100%',
           pb: 4 // Add padding at the bottom to ensure messages aren't cut off
         }}>
-          {messages.map((msg, index) => (
-            <React.Fragment key={index}>
-              <MessageList messages={[msg]} />
-              
-              {/* Display search results immediately after assistant messages */}
-              {msg.role === 'assistant' && msg.searchResult && (
-                <Box sx={{ 
-                  alignSelf: 'flex-start', 
-                  ml: { xs: 2, sm: 5 }, 
-                  width: '90%', 
-                  maxWidth: '800px',
-                  overflowWrap: 'break-word',
-                  wordBreak: 'break-word'
-                }}>
-                  <SearchResultDisplay result={msg.searchResult} />
-                </Box>
-              )}
-            </React.Fragment>
-          ))}
+          {messages.map((msg, index) => {
+            const isLatestMessage = index === messages.length - 1;
+            return (
+              <React.Fragment key={index}>
+                {/* Use ref for the latest message to scroll to */}
+                <div ref={isLatestMessage ? latestMessageRef : null}>
+                  <MessageList messages={[msg]} />
+                </div>
+              </React.Fragment>
+            );
+          })}
         </Box>
         
         {loading && (
@@ -248,26 +251,18 @@ const ChatUI = () => {
           disabled={loading}
           multiline
           maxRows={4}
-          size="small"
-          sx={{ 
-            mr: 1,
-            '& .MuiOutlinedInput-root': {
-              borderRadius: '20px',
-              backgroundColor: '#ffffff',
-            }
+          InputProps={{
+            sx: { backgroundColor: '#fff' }
           }}
         />
-        <Button
-          variant="contained"
-          color="primary"
-          disableElevation
-          disabled={loading || !input.trim()}
+        <IconButton 
+          color="primary" 
           onClick={sendMessage}
-          endIcon={<SendIcon />}
-          sx={{ borderRadius: '20px', px: 3 }}
+          disabled={loading || input.trim() === ''}
+          sx={{ ml: 1 }}
         >
-          Send
-        </Button>
+          <SendIcon />
+        </IconButton>
       </Box>
     </Paper>
   );

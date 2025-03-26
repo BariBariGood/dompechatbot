@@ -1,100 +1,119 @@
-import React, { useRef, useEffect } from 'react';
-import { Box, Avatar, Paper, Typography } from '@mui/material';
+import React from 'react';
+import { Box, Paper, Typography, Avatar } from '@mui/material';
+import { styled } from '@mui/material/styles';
 import ReactMarkdown from 'react-markdown';
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 import PersonIcon from '@mui/icons-material/Person';
 
-const MessageList = ({ messages, renderMessage }) => {
-  const messagesEndRef = useRef(null);
-  
-  // Scroll to the bottom whenever messages change
-  useEffect(() => {
-    if (messagesEndRef.current) {
-      messagesEndRef.current.scrollIntoView({ behavior: 'smooth' });
-    }
-  }, [messages]);
-  
-  return (
-    <Box sx={{ 
-      flex: 1, 
-      overflowY: 'visible', 
-      p: 2, 
-      display: 'flex', 
-      flexDirection: 'column',
-      gap: 1,
-      width: '100%'
-    }}>
-      {messages.map((message, index) => (
-        renderMessage ? renderMessage(message, index) : (
-          <Message key={index} message={message} />
-        )
-      ))}
-      <div ref={messagesEndRef} />
-    </Box>
-  );
+// Styled components
+const StyledPaper = styled(Paper)(({ theme, role }) => ({
+  padding: theme.spacing(2),
+  maxWidth: '85%',
+  borderRadius: role === 'assistant' ? '18px 18px 18px 4px' : '18px 18px 4px 18px',
+  backgroundColor: role === 'assistant' ? '#f0f7ff' : '#f5f5f5',
+  boxShadow: 'none',
+  border: role === 'assistant' ? '1px solid #e0ebfd' : '1px solid #e0e0e0'
+}));
+
+const StyledAvatar = styled(Avatar)(({ theme, role }) => ({
+  backgroundColor: role === 'assistant' ? '#1976d2' : '#757575',
+  width: 36,
+  height: 36
+}));
+
+// Custom styles for markdown
+const markdownStyles = {
+  p: {
+    margin: '0.5em 0',
+    lineHeight: '1.5'
+  },
+  h3: {
+    margin: '1em 0 0.5em 0',
+    fontSize: '1.2rem',
+    fontWeight: 'bold',
+    color: '#1976d2'
+  },
+  h4: {
+    margin: '0.8em 0 0.4em 0',
+    fontSize: '1.1rem',
+    fontWeight: 'bold'
+  },
+  ul: {
+    margin: '0.5em 0',
+    paddingLeft: '2em'
+  },
+  ol: {
+    margin: '0.5em 0',
+    paddingLeft: '2em'
+  },
+  li: {
+    margin: '0.2em 0'
+  },
+  code: {
+    backgroundColor: '#f0f0f0',
+    padding: '0.2em 0.4em',
+    borderRadius: '3px',
+    fontFamily: 'monospace',
+    fontSize: '0.9em'
+  },
+  pre: {
+    backgroundColor: '#f0f0f0',
+    padding: '0.8em',
+    borderRadius: '5px',
+    overflowX: 'auto',
+    margin: '0.8em 0'
+  }
 };
 
-const Message = ({ message }) => {
-  const isUser = message.role === 'user';
-
+const MessageList = ({ messages }) => {
   return (
-    <Box
-      sx={{
-        display: 'flex',
-        justifyContent: isUser ? 'flex-end' : 'flex-start',
-        mb: 2,
-        width: '100%'
-      }}
-    >
-      <Box
-        sx={{
-          display: 'flex',
-          flexDirection: isUser ? 'row-reverse' : 'row',
-          alignItems: 'flex-start',
-          maxWidth: { xs: '90%', sm: '85%' },
-          width: 'auto'
-        }}
-      >
-        <Avatar
+    <>
+      {messages.map((message, index) => (
+        <Box
+          key={index}
           sx={{
-            bgcolor: isUser ? 'secondary.main' : 'primary.main',
-            [isUser ? 'ml' : 'mr']: 1,
-            width: 36,
-            height: 36,
-            flexShrink: 0
+            display: 'flex',
+            justifyContent: message.role === 'assistant' ? 'flex-start' : 'flex-end',
+            mb: 2,
+            gap: 1,
+            alignItems: 'flex-start'
           }}
         >
-          {isUser ? <PersonIcon fontSize="small" /> : <SupportAgentIcon fontSize="small" />}
-        </Avatar>
-
-        <Paper
-          elevation={1}
-          sx={{
-            p: 2,
-            bgcolor: isUser ? '#e3f2fd' : '#ffffff',
-            color: 'text.primary',
-            borderRadius: 2,
-            maxWidth: '100%',
-            width: 'auto',
-            overflowWrap: 'break-word',
-            wordBreak: 'break-word'
-          }}
-        >
-          <Typography
-            variant="body1"
-            sx={{
-              whiteSpace: 'pre-wrap', 
-              wordBreak: 'break-word',
-              overflowWrap: 'break-word',
-              lineHeight: 1.6,
-              width: '100%'
-            }}
-          >
-            {message.content}
-          </Typography>
-        </Paper>
-      </Box>
-    </Box>
+          {message.role === 'assistant' && (
+            <StyledAvatar role="assistant">
+              <SupportAgentIcon fontSize="small" />
+            </StyledAvatar>
+          )}
+          
+          <StyledPaper role={message.role}>
+            {message.role === 'assistant' ? (
+              <ReactMarkdown components={{
+                p: ({ node, ...props }) => <Typography variant="body1" style={markdownStyles.p} {...props} />,
+                h3: ({ node, ...props }) => <Typography variant="h6" style={markdownStyles.h3} {...props} />,
+                h4: ({ node, ...props }) => <Typography variant="subtitle1" style={markdownStyles.h4} {...props} />,
+                ul: ({ node, ...props }) => <ul style={markdownStyles.ul} {...props} />,
+                ol: ({ node, ...props }) => <ol style={markdownStyles.ol} {...props} />,
+                li: ({ node, ...props }) => <li style={markdownStyles.li} {...props} />,
+                code: ({ node, inline, ...props }) => 
+                  inline ? 
+                    <code style={markdownStyles.code} {...props} /> : 
+                    <pre style={markdownStyles.pre}><code {...props} /></pre>,
+              }}>
+                {message.content}
+              </ReactMarkdown>
+            ) : (
+              <Typography variant="body1">{message.content}</Typography>
+            )}
+          </StyledPaper>
+          
+          {message.role === 'user' && (
+            <StyledAvatar role="user">
+              <PersonIcon fontSize="small" />
+            </StyledAvatar>
+          )}
+        </Box>
+      ))}
+    </>
   );
 };
 
